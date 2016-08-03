@@ -12,20 +12,11 @@
 #include <stdio.h>
 #include <iostream>
 
-using namespace std;
 
-struct imgPath{
-    // Miku
-    std::string miku = "/Users/dantesm5481/Desktop/OpenCV/miku.jpg";
-    //Pyrmind
-    std::string pyr1 = "/Users/dantesm5481/Desktop/runingproject/RaymondZorroOpenCV/pyrid1.jpg";
-    std::string pyr2 = "/Users/dantesm5481/Desktop/runingproject/RaymondZorroOpenCV/pyrid2.jpg";
-    
-    
-    
-    
-    
-};
+std::string getImgPath1();
+std::string getImgPath2();
 
+std::string getmiku();
 
+void imagecheck();
 #endif /* ImagePath_hpp */

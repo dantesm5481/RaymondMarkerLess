@@ -65,6 +65,8 @@
 		D83FEAA21D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D83FEA691D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */; };
 		D83FEAA31D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D83FEA6A1D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */; };
 		D83FEAA41D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D83FEA6B1D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */; };
+		D85E313A1D51836900D46D45 /* RLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D85E31381D51836900D46D45 /* RLog.cpp */; };
+		D85E313D1D51837D00D46D45 /* PatternMatche.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D85E313B1D51837D00D46D45 /* PatternMatche.cpp */; };
 		D8BB1AF81D4F2CA8006E8220 /* ImagePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8BB1AF61D4F2CA8006E8220 /* ImagePath.cpp */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +142,10 @@
 		D83FEA691D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.11.dylib; path = "../../OpenCV/opencv-2.4.11/release/lib/libopencv_videostab.2.4.11.dylib"; sourceTree = "<group>"; };
 		D83FEA6A1D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.11.dylib; path = "../../OpenCV/opencv-2.4.11/release/lib/libopencv_videostab.2.4.11.dylib"; sourceTree = "<group>"; };
 		D83FEA6B1D48B66A00979CEE /* libopencv_videostab.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.11.dylib; path = "../../OpenCV/opencv-2.4.11/release/lib/libopencv_videostab.2.4.11.dylib"; sourceTree = "<group>"; };
+		D85E31381D51836900D46D45 /* RLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RLog.cpp; sourceTree = "<group>"; };
+		D85E31391D51836900D46D45 /* RLog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RLog.hpp; sourceTree = "<group>"; };
+		D85E313B1D51837D00D46D45 /* PatternMatche.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatternMatche.cpp; sourceTree = "<group>"; };
+		D85E313C1D51837D00D46D45 /* PatternMatche.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PatternMatche.hpp; sourceTree = "<group>"; };
 		D8B2F57D1D4B28D8002C361D /* miku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = miku.jpg; path = ../../OpenCV/miku.jpg; sourceTree = "<group>"; };
 		D8BB1AF61D4F2CA8006E8220 /* ImagePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImagePath.cpp; sourceTree = "<group>"; };
 		D8BB1AF71D4F2CA8006E8220 /* ImagePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImagePath.hpp; sourceTree = "<group>"; };
@@ -235,8 +241,12 @@
 			isa = PBXGroup;
 			children = (
 				D83FEA2A1D48B55100979CEE /* main.cpp */,
+				D85E31381D51836900D46D45 /* RLog.cpp */,
+				D85E31391D51836900D46D45 /* RLog.hpp */,
 				D8BB1AF61D4F2CA8006E8220 /* ImagePath.cpp */,
 				D8BB1AF71D4F2CA8006E8220 /* ImagePath.hpp */,
+				D85E313B1D51837D00D46D45 /* PatternMatche.cpp */,
+				D85E313C1D51837D00D46D45 /* PatternMatche.hpp */,
 			);
 			path = RaymondZorroOpenCV;
 			sourceTree = "<group>";
@@ -369,7 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85E313A1D51836900D46D45 /* RLog.cpp in Sources */,
 				D8BB1AF81D4F2CA8006E8220 /* ImagePath.cpp in Sources */,
+				D85E313D1D51837D00D46D45 /* PatternMatche.cpp in Sources */,
 				D83FEA2B1D48B55100979CEE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
