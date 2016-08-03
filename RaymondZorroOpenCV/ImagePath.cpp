@@ -16,7 +16,7 @@ using namespace cv;
 std::string getImgPath1(){return "/Users/dantesm5481/Desktop/runingproject/RaymondZorroOpenCV/pyrid1.jpg";};
 std::string getImgPath2(){return "/Users/dantesm5481/Desktop/runingproject/RaymondZorroOpenCV/pyrid2.jpg";};
 
-std::string getmiku(){return "";};
+std::string getmiku(){return "/Users/dantesm5481/Desktop/runingproject/RaymondZorroOpenCV/miku.jpg";};
 
 void imagecheck(Mat mat){
     (!mat.data)? std::cout << "Mat Wrong Path" <<endl :
